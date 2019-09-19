@@ -7,5 +7,6 @@ public  class FirstDay {
         s.display();
         LoopClass l = new LoopClass();
         l.Loopfuc();
+
     }
 }
