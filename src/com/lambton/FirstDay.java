@@ -1,9 +1,11 @@
 package com.lambton;
-
-public class StudentFile
-{
-        // variable declared
-        int Id=772733;
-        String name[]='Kamal';
+public  class FirstDay {
+    public static void main(String args[]) {
+        System.out.println("KAmal");
+        StudentFile s =new StudentFile();
+        s.setValues();
+        s.display();
+        LoopClass l = new LoopClass();
+        l.Loopfuc();
     }
 }

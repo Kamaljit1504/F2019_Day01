@@ -1,0 +1,22 @@
+package com.lambton;
+
+public class StudentFile
+{
+
+    int studentID;
+    String name;
+
+        void setValues()
+        {
+            studentID=123;
+            name="KAMAL";
+        }
+
+        void display()
+        {
+            System.out.println("STUDENT ID" +studentID);
+            System.out.println("Student Name" + name);
+        }
+
+
+}
